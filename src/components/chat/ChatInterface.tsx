@@ -670,58 +670,58 @@ const ChatInterface = () => {
               <div className="contact-item">
                 <strong>Email:</strong> 
                 <a 
-                  href="mailto:hello@yourname.com" 
+                  href="mailto:prashanthk@live.com" 
                   className="contact-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  hello@yourname.com
+                  prashanthk@live.com
                 </a>
               </div>
               <div className="contact-item">
                 <strong>Phone:</strong> 
-                <span className="contact-text">+1 (555) 123-4567</span>
+                <span className="contact-text">+91 99621 95294</span>
               </div>
               <div className="contact-item">
                 <strong>Location:</strong> 
-                <span className="contact-text">San Francisco, CA</span>
+                <span className="contact-text">Chennai, Tamil Nadu, India</span>
               </div>
               <div className="contact-item">
                 <strong>LinkedIn:</strong> 
                 <a 
-                  href="https://linkedin.com/in/your-linkedin-username" 
+                  href="https://www.linkedin.com/in/krishprashanth/" 
                   className="contact-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  linkedin.com/in/your-linkedin-username
+                  linkedin.com/in/krishprashanth
                 </a>
               </div>
               <div className="contact-item">
                 <strong>Portfolio:</strong> 
                 <a 
-                  href="https://yourportfolio.com" 
+                  href="https://www.prashanthkrish.com" 
                   className="contact-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  yourportfolio.com
+                  prashanthkrish.com
                 </a>
               </div>
               <div className="contact-item">
                 <strong>Website:</strong> 
                 <a 
-                  href="https://yourwebsite.com" 
+                  href="https://www.prashanthkrish.com" 
                   className="contact-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  yourwebsite.com
+                  prashanthkrish.com
                 </a>
               </div>
             </div>
             <div className="contact-note">
-              I'm always interested in discussing new opportunities, design challenges, or just connecting with fellow professionals. Feel free to reach out!
+              I'm always open to discussing senior leadership opportunities, the future of retail and AI, or connecting with other leaders in the design and technology space. Please feel free to reach out.
             </div>
           </div>
         )}
