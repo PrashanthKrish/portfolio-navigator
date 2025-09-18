@@ -11,16 +11,20 @@ export const PORTFOLIO_KNOWLEDGE = {
   // PERSONAL INFORMATION
   // =============================================================================
   personal: {
-    name: "Prashanth Kothandaraman K",
-    title: "Design Director & Business Solutions Head",
-    location: "Chennai, Tamil Nadu, India",
-    email: "prashanthk@live.com",
-    linkedin: "https://www.linkedin.com/in/krishprashanth/",
-    github: "https://github.com/prashanthkrish",
-    portfolio: "https://www.prashanthkrish.com",
+    name: "[Your Full Name]",
+    title: "[Your Professional Title]", // e.g., "Senior UX Designer", "Full-Stack Developer"
+    location: "[Your City, State/Country]",
+    email: "[your.email@example.com]",
+    linkedin: "[linkedin.com/in/your-profile]",
+    github: "[github.com/your-username]", // if applicable
+    portfolio: "[your-portfolio-website.com]", // if applicable
     
+    // Brief elevator pitch - 2-3 sentences about who you are
     elevator_pitch: `
-    I am a visionary Design Director with over 14 years of experience leading global, cross-functional teams to deliver user-centered solutions that drive significant business transformation. I specialize in translating complex challenges in Retail and Enterprise IT into intuitive digital experiences, with deep expertise in leveraging emerging technologies like AI to create quantifiable impact on revenue and operational efficiency.
+    [Write a compelling 2-3 sentence summary of who you are professionally. 
+    Example: "I'm a product designer with 6+ years of experience creating user-centered 
+    digital experiences for fintech and healthcare companies. I specialize in design 
+    systems and have led cross-functional teams to deliver award-winning mobile and web applications."]
     `,
     
     // Your professional values and what drives you
