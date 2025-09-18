@@ -1,27 +1,26 @@
-# 🤖 AI Portfolio Chatbot
+# AI Portfolio Chatbot
 
 An intelligent, conversational portfolio website powered by progressive disclosure and OpenAI. Let visitors explore your experience through natural conversations instead of traditional navigation.
+![Scene-1 (19)](https://github.com/user-attachments/assets/b2df7b0e-eaa2-4dcb-b8f4-34635bacd9b1)
 
-![AI Portfolio Demo](https://via.placeholder.com/800x400/4f46e5/ffffff?text=AI+Portfolio+Chatbot+Demo)
 
 ## ✨ Features
 
-- **🧠 AI-Powered Conversations** - OpenAI integration for dynamic, personalized responses
-- **📚 Progressive Disclosure** - 4-level conversation system (Overview → Details → Deep Dive → Granular)
-- **📱 Mobile-Responsive** - Optimized chat interface for all devices
-- **⚡ Lightning Fast** - Built with Next.js 15 and React 19
-- **🎨 Beautiful UI** - Modern design with Tailwind CSS and Framer Motion
-- **🔧 Easy Customization** - Single configuration file for all content
-- **🚀 One-Click Deploy** - Ready for Vercel deployment
+- ** AI-Powered Conversations** - OpenAI integration for dynamic, personalized responses
+- ** Progressive Disclosure** - 4-level conversation system (Overview → Details → Deep Dive → Granular)
+- ** Mobile-Responsive** - Optimized chat interface for all devices
+- ** Lightning Fast** - Built with Next.js 15 and React 19
+- ** Easy Customization** - Single configuration file for all content
+- ** One-Click Deploy** - Ready for Vercel deployment
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js 15, React 19, TypeScript
 - **Styling**: Tailwind CSS, Radix UI, Framer Motion
 - **AI**: OpenAI GPT-4
 - **Deployment**: Vercel (recommended)
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -33,7 +32,7 @@ An intelligent, conversational portfolio website powered by progressive disclosu
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-portfolio-chatbot.git
+git clone https://github.com/bethanyrobertson/portfolio-navigator.git
 cd ai-portfolio-chatbot
 
 # Install dependencies
@@ -64,11 +63,15 @@ cp src/data/examples/example-assistant-config.ts src/data/assistant-config.ts
 #### Add Your Portfolio Knowledge
 ```bash
 # Copy the template  
-cp src/data/examples/example-portfolio-knowledge.ts src/data/portfolio-knowledge.ts
+cp src/data/portfolio-knowledge.ts
 
 # Fill in your projects, experience, and skills
 # This is where all your portfolio content lives
 ```
+
+![Scene-1 (18)](https://github.com/user-attachments/assets/a7fb67c2-ea28-466d-9316-34c79e898fd9)
+
+<img width="230" height="98" alt="Screenshot 2025-08-21 at 6 14 39 PM" src="https://github.com/user-attachments/assets/e3df67bb-c317-4f8b-af9e-39179e1f303a" />
 
 #### Add Your Assets
 ```bash
@@ -98,7 +101,7 @@ npm run validate
 curl http://localhost:3000/api/chat
 ```
 
-## 📝 Customization Guide
+## Customization Guide
 
 ### Content Structure
 
@@ -170,7 +173,68 @@ module.exports = {
 }
 ```
 
-## 🚀 Deployment
+#### Change Background SVG
+Replace the background with your own custom SVG:
+
+1. **Add your SVG file** to `public/assets/background.svg`
+2. **Update the CSS** in `app/globals.css`:
+```css
+html {
+  background: url('/assets/your-background.svg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+```
+
+#### Customize Avatar Colors
+Change the avatar circle colors throughout the interface:
+
+1. **Header Avatar** - In `src/components/chat/ChatInterface.tsx`:
+```typescript
+backgroundColor: '#YOUR_COLOR' // Line ~756
+```
+
+2. **Message Avatars** - In the same file:
+```typescript
+backgroundColor: '#YOUR_COLOR' // Lines ~555 and ~585
+```
+
+3. **Button Colors** - In `app/globals.css`:
+```css
+.btn-primary {
+  background-color: #YOUR_COLOR;
+}
+```
+
+#### Add Your Resume
+Set up resume download functionality:
+
+1. **Add your resume file** to `public/assets/` folder:
+   - Replace `public/assets/my-resume.pdf` with your resume
+   - Or keep the same filename for no code changes
+
+2. **If using a different filename**, update the references in `src/components/chat/ChatInterface.tsx`:
+```typescript
+// Update the download path (lines ~713, ~714)
+link.href = '/assets/YOUR-RESUME-NAME.pdf';
+link.download = 'YOUR-RESUME-NAME.pdf';
+
+// Update button text (line ~855)
+text: "YOUR-RESUME-NAME.pdf",
+
+// Update other references (lines ~521, ~523, etc.)
+// Search for 'my-resume.pdf' and replace with your filename
+```
+
+3. **Update contact info** in `src/data/assistant-config.ts`:
+```typescript
+export const CONTACT_INFO = {
+  // ... other fields
+  resume: "/assets/YOUR-RESUME-NAME.pdf"
+};
+```
+
+## Deployment
 
 ### Deploy to Vercel (Recommended)
 
@@ -216,7 +280,7 @@ npm run build
 npm start
 ```
 
-## 🛠️ Development
+##  Development
 
 ### Project Structure
 ```
@@ -240,9 +304,8 @@ ai-portfolio-chatbot/
 │   └── types/                   # TypeScript type definitions
 ├── public/
 │   ├── assets/                  # Images, resume, etc.
-│   └── icons/                   # Icon files
 ├── scripts/
-│   ├── setup.js                 # Setup automation
+│   ├── quick-setup.js           # Setup automation
 │   └── validate-content.js      # Content validation
 └── docs/                        # Additional documentation
 ```
@@ -277,7 +340,7 @@ Common validation issues:
 - Incorrect file paths for assets
 - Missing required fields in portfolio knowledge
 
-## 🎯 Use Cases
+## Use Cases
 
 Perfect for:
 - **UX/UI Designers** - Showcase design process and case studies
@@ -286,7 +349,7 @@ Perfect for:
 - **Startup Founders** - Share entrepreneurial journey and ventures
 - **Creative Professionals** - Display portfolio work interactively
 
-## 📚 Advanced Features
+## Advanced Features
 
 ### Custom Integrations
 
@@ -327,7 +390,7 @@ export const LOCALIZED_CONTENT = {
 };
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -376,15 +439,6 @@ const cachedResponse = await redis.get(`chat:${messageHash}`);
 if (cachedResponse) return cachedResponse;
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-
 ## 🙏 Acknowledgments
 
 - [OpenAI](https://openai.com) for the GPT-4 API
@@ -393,7 +447,6 @@ if (cachedResponse) return cachedResponse;
 - [Radix UI](https://radix-ui.com) for accessible components
 
 ## 📞 Support
-
 - 📧 **Email**: bethany@bethanyrobertson.com
 
 ---
