@@ -3,7 +3,7 @@ import '../styles/chat.css'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'AI Portfolio Navigator',
+  title: 'Prashanth AI Portfolio Navigator',
   description: 'An intelligent, conversational portfolio website',
 }
 
