@@ -25,16 +25,15 @@ export const PORTFOLIO_KNOWLEDGE = {
     
     // Your professional values and what drives you
     values: [
-      "[Core value 1 - e.g., 'User-centered design']",
-      "[Core value 2 - e.g., 'Continuous learning']", 
-      "[Core value 3 - e.g., 'Collaborative leadership']"
+      "Human-Centered Innovation: Grounding every strategic decision in deep user empathy and research.",
+      "Data-Driven Leadership: Using quantifiable metrics to measure success and validate design's ROI.",
+      "Strategic Business Impact: Ensuring design is a core driver of business growth, not just an aesthetic layer."
     ],
     
-    // What you're passionate about in your field
     passions: [
-      "[Passion 1 - e.g., 'Accessibility in design']",
-      "[Passion 2 - e.g., 'Mentoring junior developers']",
-      "[Passion 3 - e.g., 'Sustainable technology solutions']"
+      "Leveraging emerging technologies like Agentic AI and network commerce (ONDC) to create transformative user experiences.",
+      "Building and mentoring high-performing design teams to foster a robust, enterprise-wide design thinking culture.",
+      "Solving complex, large-scale challenges that sit at the intersection of user needs, business goals, and technology."
     ]
   },
 
@@ -43,64 +42,77 @@ export const PORTFOLIO_KNOWLEDGE = {
   // =============================================================================
   experience: {
     current_role: {
-      title: "[Your Current Job Title]",
-      company: "[Company Name]", 
-      duration: "[Start Date] - Present", // e.g., "Jan 2022 - Present"
-      location: "[City, State/Remote]",
+      title: "Strategic Head for Experience Design, Business Research & Solutions",
+      company: "Tata Consultancy Services (Retail Strategic Initiatives)", 
+      duration: "August 2022 - Present",
+      location: "Chennai, India",
       
       description: `
-      [Write a comprehensive description of your current role. Include:
-      - What the company does and your role in it
-      - Key responsibilities and daily tasks
-      - Team size and structure you work with
-      - Notable projects or initiatives you've led
-      - Technologies, tools, or methodologies you use]
+      In this role, I spearhead the experience transformation of a major digital commerce suite, shaping next-generation retail experiences across all channels. My key responsibilities include leading business solutions for emerging technologies like ONDC, Retail Media Networks (RMN), and Agentic AI. I direct in-depth market and user research across diverse retail verticals to drive data-driven innovation and ensure cross-functional alignment between product, engineering, marketing, and data science teams to translate technical capabilities into actionable design strategies.
       `,
       
       key_achievements: [
-        "[Achievement 1 with specific metrics - e.g., 'Increased user engagement by 35% through redesign of core product features']",
-        "[Achievement 2 with impact - e.g., 'Led migration to new tech stack, reducing build times by 50%']",
-        "[Achievement 3 with recognition - e.g., 'Mentored 5 junior designers, 3 of whom were promoted within 18 months']"
+        "Spearheaded initiatives contributing to an ~8% increase in Average Order Value (AOV) for the digital commerce suite.",
+        "Architected the ONDC framework, expanding market reach by an estimated 15% and enabling penetration into new market segments.",
+        "Developed and launched an RMN strategy, creating a new revenue stream projected to increase retailer revenue by 2-6%."
       ],
       
       technologies: [
-        // List relevant technologies, tools, or methodologies
-        "[Tool/Technology 1]",
-        "[Tool/Technology 2]", 
-        "[Tool/Technology 3]"
+        "Design Thinking",
+        "Agile & Lean UX",
+        "Figma & Adobe Creative Suite",
+        "AI/ML, Agentic AI, Conversational AI"
       ]
     },
     
     previous_roles: [
       {
-        title: "[Previous Job Title]",
-        company: "[Company Name]",
-        duration: "[Start Date] - [End Date]",
-        location: "[City, State/Remote]",
+        title: "Head of Experience, Design Thinking & Solutioning Center of Excellence",
+        company: "Tata Consultancy Services (Enterprise IT)",
+        duration: "August 2019 - July 2022",
+        location: "Chennai, India",
         
         description: `
-        [Description of this role and why it was important for your career growth]
+        I founded the Design Thinking & Solutioning CoE to establish UX as a core competency within Enterprise IT. This involved evangelizing human-centered design principles across a 700,000-employee organization, developing UX career frameworks, and driving the strategic reimagining of over 25 enterprise products and services.
         `,
         
         key_achievements: [
-          "[Achievement 1]",
-          "[Achievement 2]"
+          "Proliferated Design Thinking practices, enabling ~6,000 associates and winning a Golden Stevie Award for Design & Innovation.",
+          "Increased design collaboration efficiency by 60% and UX designer retention by 25% through new platforms and frameworks."
         ],
         
         technologies: [
-          "[Technology 1]",
-          "[Technology 2]"
+          "Design Thinking Facilitation",
+          "Gamification Strategy",
+          "Change Management"
         ]
       },
-      // Add more previous roles as needed
       {
-        title: "[Another Previous Role]",
-        company: "[Company Name]", 
-        duration: "[Start Date] - [End Date]",
-        location: "[City, State/Remote]",
-        description: "[Brief description]",
-        key_achievements: ["[Achievement]"],
-        technologies: ["[Technology]"]
+        title: "Design Director – User Experience & Solutions",
+        company: "Tata Consultancy Services (Enterprise IT)", 
+        duration: "February 2015 - July 2019",
+        location: "Chennai, India",
+        description: "Led design for multiple enterprise-scale platforms, transforming project planning, communication, and employee engagement. My focus was on driving high user adoption (85-95%) and demonstrating design's value to C-suite stakeholders.",
+        key_achievements: ["Reduced project initiation time from months to days (~90% reduction) and improved user satisfaction scores by up to 75%."],
+        technologies: ["AI/ML for insights", "Gamification", "UCD Principles"]
+      },
+      {
+        title: "Usability Architect",
+        company: "Tata Consultancy Services (Enterprise IT)", 
+        duration: "February 2011 - February 2015",
+        location: "Chennai, India",
+        description: "Architected user experiences for complex, large-scale enterprise platforms for over 400,000 global users, focusing on improving usability, efficiency, and satisfaction.",
+        key_achievements: ["Reduced time-to-productivity for new hires by 40% and improved C-suite decision-making speed by 75% through dashboard design."],
+        technologies: ["User Research", "Information Architecture", "Prototyping"]
+      },
+      {
+        title: "Co-Founder",
+        company: "UMM Digital", 
+        duration: "March 2006 - February 2011",
+        location: "Chennai, India",
+        description: "Founded and led a digital design and development agency, overseeing strategy, operations, and client relations while pioneering user-centric design services for diverse clients, including Fortune 500 companies.",
+        key_achievements: ["Built a high-performing creative team from the ground up and successfully delivered impactful solutions across entertainment, banking, and tech sectors."],
+        technologies: ["Web Design/Development", "Business Development", "Visual Effects"]
       }
     ]
   },
@@ -111,108 +123,105 @@ export const PORTFOLIO_KNOWLEDGE = {
   projects: {
     featured: [
       {
-        name: "[Project Name 1]",
-        type: "[Project Type - e.g., 'Mobile App', 'Web Platform', 'Design System']",
-        company: "[Company/Client Name or 'Personal Project']",
-        duration: "[Timeline - e.g., '3 months', 'Q2 2023']",
-        team_size: "[Number of team members and your role]",
+        name: "Next-Gen Retail: AI-Powered Commerce",
+        type: "Digital Commerce Suite Transformation",
+        company: "Tata Consultancy Services",
+        duration: "2022 - Present",
+        team_size: "Led cross-functional alignment with Product, Engineering, Marketing, and Data Science teams.",
         
         overview: `
-        [2-3 sentence overview of what this project was and why it was important]
+        This project's goal was to modernize an architecturally robust but experientially lagging digital commerce suite to meet evolving retail demands and capitalize on emerging technologies like AI, ONDC, and Retail Media Networks.
         `,
         
         challenge: `
-        [Describe the problem or challenge this project addressed. Be specific about:
-        - What was broken or missing?
-        - Who was affected and how?
-        - Why was this important to solve?]
+        The core challenge was to shift the product strategy from being feature-led to experience-led. This required integrating fundamentally new technologies (like Agentic AI and network commerce) into a mature platform without disrupting existing clients, while simultaneously proving the business case for this significant investment to stakeholders.
         `,
         
         solution: `
-        [Describe your approach and solution. Include:
-        - Your methodology or process
-        - Key decisions you made and why
-        - How you collaborated with others
-        - Unique or innovative aspects of your solution]
+        My approach was to lead with a data-driven strategy. I directed extensive market and user research to identify key pain points and opportunities. I then architected the strategic frameworks for ONDC and RMN integration, and oversaw the design and implementation of Agentic AI for personalization, virtual advisors, and advanced search, ensuring each feature was tied to a clear business metric.
         `,
         
         your_role: `
-        [Specifically what YOU did on this project:
-        - Your responsibilities
-        - Parts you owned end-to-end
-        - Leadership or mentoring aspects
-        - Cross-functional collaboration]
+        As the Strategic Head, I owned the end-to-end experience vision. My responsibilities included:
+        - Leading strategic integration of all emerging technologies.
+        - Spearheading ONDC solutioning and experience design.
+        - Developing and launching the RMN strategy from concept to execution.
+        - Overseeing Agentic AI implementation and championing the GPT Buying Guide.
+        - Translating complex technical capabilities into actionable design strategies and ensuring alignment across all global teams.
         `,
         
         technologies: [
-          "[Technology/Tool 1]",
-          "[Technology/Tool 2]",
-          "[Technology/Tool 3]"
+          "Agentic AI & Conversational AI (ChatGPT)",
+          "ONDC (Open Network for Digital Commerce)",
+          "Retail Media Networks (RMN)",
+          "Design Thinking & User Research"
         ],
         
         results: {
           metrics: [
-            "[Quantifiable result 1 - e.g., '40% increase in user conversion']",
-            "[Quantifiable result 2 - e.g., 'Reduced loading time by 2.3 seconds']",
-            "[Quantifiable result 3 - e.g., '95% positive user feedback score']"
+            "Achieved an ~8% increase in Average Order Value (AOV).",
+            "Improved user task completion rates by ~22% with the ChatGPT Buying Guide.",
+            "Reduced related support queries by ~41%."
           ],
           
           impact: `
-          [Describe the broader impact:
-          - How it affected users
-          - Business outcomes
-          - Team or organizational benefits
-          - Long-term effects]
+          This transformation positioned the commerce suite as a market leader in leveraging AI and network commerce. It enabled penetration into new geographies and retail IT spending segments, and created entirely new, high-margin revenue streams for retailers through the RMN strategy.
           `,
           
           learnings: [
-            "[Key learning 1]",
-            "[Key learning 2]",
-            "[Key learning 3]"
+            "Successfully integrating frontier technology requires a dual focus: a bold vision for the future state and a pragmatic, phased approach to implementation.",
+            "The value of AI is maximized when it's used not just for automation, but to enable genuinely new and helpful user experiences.",
+            "Cross-functional alignment is paramount; the best strategy is useless without unified execution across product, engineering, and GTM teams."
           ]
         },
         
         links: {
-          live_site: "[URL if publicly accessible]",
-          case_study: "[URL to detailed case study if available]", 
-          github: "[GitHub repo if applicable]"
+          live_site: "",
+          case_study: "", 
+          github: ""
         }
       },
       
-      // Add 2-3 more featured projects following the same structure
       {
-        name: "[Project Name 2]",
-        type: "[Project Type]",
-        company: "[Company/Client]",
-        duration: "[Timeline]",
-        team_size: "[Team info]",
-        overview: "[Overview]",
-        challenge: "[Challenge description]",
-        solution: "[Solution description]", 
-        your_role: "[Your specific role]",
-        technologies: ["[Tech 1]", "[Tech 2]"],
+        name: "Center of Excellence: Driving Design Transformation & Innovation",
+        type: "Organizational Change & Platform Development",
+        company: "Tata Consultancy Services",
+        duration: "2019 - 2022",
+        team_size: "Led a core team and influenced a unit of ~6,000 associates.",
+        overview: "The objective was to establish design thinking and user experience as core organizational competencies within Enterprise IT, driving innovation and improving solution delivery across the board.",
+        challenge: "The primary challenge was cultural. I needed to embed design as a strategic competency in a deeply engineering-focused organization, proving its value beyond aesthetics and demonstrating its direct impact on business metrics and employee satisfaction.",
+        solution: "I created a multi-pronged strategy: I established a formal UX Design Career Framework, simplified and gamified career progression, designed a tailored Agile platform to speed up delivery, and built a secure in-house design collaboration platform to boost efficiency. This was supported by extensive workshops and evangelism.", 
+        your_role: "As the founder and head of the CoE, I was responsible for the entire strategy and execution. I partnered with C-suite leadership to align initiatives, developed the frameworks, orchestrated workshops, oversaw user research, and mentored the UX teams.",
+        technologies: ["Design Thinking", "Gamification", "Agile Transformation", "Change Management"],
         results: {
-          metrics: ["[Metric 1]", "[Metric 2]"],
-          impact: "[Impact description]",
-          learnings: ["[Learning 1]", "[Learning 2]"]
+          metrics: [
+            "Increased project delivery speed by 35%.", 
+            "Improved UX designer retention by 25%.",
+            "Boosted design collaboration efficiency by 60% with 95% adoption of the new in-house platform."
+            ],
+          impact: "The CoE successfully transformed the culture to be more innovative and user-centric. This led to significant, measurable improvements in employee satisfaction, retention, career clarity, and project efficiency, fundamentally changing how products were built.",
+          learnings: [
+            "Organizational change is not just about tools and processes; it's about changing mindsets through consistent evangelism and demonstrating tangible value.",
+            "Empowering non-designers with design principles (democratizing design) scales the impact far beyond what a central team can achieve alone.",
+            "A formal career framework is critical for attracting, retaining, and growing top design talent in a large enterprise."
+            ]
         },
         links: {
-          live_site: "[URL]",
-          case_study: "[URL]"
+          live_site: "",
+          case_study: ""
         }
       }
     ],
     
     side_projects: [
       {
-        name: "[Side Project Name]",
-        description: "[Brief description of personal project, open source contribution, or experiment]",
-        technologies: ["[Tech 1]", "[Tech 2]"],
-        motivation: "[Why you built this]",
-        outcome: "[What you learned or achieved]",
-        link: "[GitHub or live site URL]"
+        name: "UMM Digital (Co-Founder)",
+        description: "Co-founded and led a full-service digital design and development agency.",
+        technologies: ["Web Design", "Web Development", "Visual Effects", "Business Strategy"],
+        motivation: "An entrepreneurial drive to build a user-centric design agency from the ground up and apply creative skills to solve real-world business problems for a diverse client base.",
+        outcome: "Successfully built and managed a high-performing team, delivering impactful solutions for diverse clients including Fortune 500 companies across entertainment, banking, and technology sectors for 5 years.",
+        link: ""
       }
-      // Add more side projects as needed
     ]
   },
 
@@ -221,83 +230,64 @@ export const PORTFOLIO_KNOWLEDGE = {
   // =============================================================================
   skills: {
     technical: {
-      // Customize these categories based on your field
-      programming_languages: [
-        {
-          name: "[Language 1 - e.g., 'JavaScript']",
-          proficiency: "[Proficiency level - e.g., 'Expert', 'Advanced', 'Intermediate']",
-          years_experience: "[Number] years",
-          context: "[Where/how you use it]"
-        },
-        {
-          name: "[Language 2]",
-          proficiency: "[Level]", 
-          years_experience: "[Number] years",
-          context: "[Context]"
-        }
-      ],
+      programming_languages: [],
       
-      frameworks_tools: [
-        {
-          category: "[Category - e.g., 'Frontend Frameworks']",
-          items: [
-            {
-              name: "[Tool/Framework 1]",
-              proficiency: "[Level]",
-              context: "[Usage context]"
-            },
-            {
-              name: "[Tool/Framework 2]", 
-              proficiency: "[Level]",
-              context: "[Usage context]"
-            }
-          ]
-        }
-      ],
+      frameworks_tools: [],
       
-      // For designers, you might have:
       design_tools: [
         {
-          name: "[Design Tool - e.g., 'Figma']",
-          proficiency: "[Level]",
-          years_experience: "[Number] years",
-          specialization: "[What you use it for]"
+          name: "Figma",
+          proficiency: "Expert",
+          years_experience: "5+ years",
+          specialization: "Prototyping, Design Systems Management, and Collaborative Design."
+        },
+        {
+          name: "Adobe Creative Suite",
+          proficiency: "Expert",
+          years_experience: "10+ years",
+          specialization: "Visual Design, Asset Creation, and Motion Graphics."
         }
       ],
       
-      // For other fields, add relevant categories:
       methodologies: [
-        "[Methodology 1 - e.g., 'Agile/Scrum']",
-        "[Methodology 2 - e.g., 'Design Thinking']",
-        "[Methodology 3 - e.g., 'Test-Driven Development']"
+        "Design Thinking",
+        "Agile & Lean UX",
+        "User-Centered Design (UCD)",
+        "Service Design",
+        "Data-Driven Design"
       ]
     },
     
     domain_expertise: [
       {
-        area: "[Expertise Area 1 - e.g., 'User Research']",
-        description: "[What this expertise entails and your experience with it]",
-        techniques: ["[Technique 1]", "[Technique 2]"]
+        area: "Retail Strategy & Transformation",
+        description: "Deep expertise in modernizing retail experiences, covering digital commerce, in-store tech, and emerging paradigms.",
+        techniques: ["Omnichannel Strategy", "ONDC Implementation", "Retail Media Networks (RMN)", "Market Research"]
       },
       {
-        area: "[Expertise Area 2 - e.g., 'Performance Optimization']", 
-        description: "[Description]",
-        techniques: ["[Technique 1]", "[Technique 2]"]
+        area: "Innovation & Emerging Technologies", 
+        description: "Specialization in integrating cutting-edge technologies into user experiences to create business value.",
+        techniques: ["AI/ML Integration in UX", "Agentic AI Design", "Voice UX Strategy", "Futures Thinking & Speculative Design"]
+      },
+      {
+        area: "Design Leadership & Operations", 
+        description: "Extensive experience in building, scaling, and managing global design teams and operations.",
+        techniques: ["Global Design Operations", "Team Building & Mentoring", "Design Advocacy & Evangelism", "Change Management"]
       }
     ],
     
     soft_skills: [
       {
-        skill: "[Soft Skill 1 - e.g., 'Cross-functional Collaboration']",
-        evidence: "[Specific example of how you've demonstrated this skill]"
+        skill: "C-suite Stakeholder Management",
+        evidence: "Successfully influenced executive leadership to champion and fund major design-led initiatives by consistently demonstrating ROI and aligning design strategy with core business objectives."
       },
       {
-        skill: "[Soft Skill 2 - e.g., 'Mentoring & Teaching']",
-        evidence: "[Example]"
+        skill: "Cross-functional Team Leadership",
+        evidence: "Proven ability to lead and align global, distributed teams across product, engineering, data science, and marketing to deliver unified and impactful solutions."
       },
       {
-        skill: "[Soft Skill 3 - e.g., 'Strategic Thinking']", 
-        evidence: "[Example]"
+        skill: "Team Building & Mentoring", 
+        evidence: "Built and scaled high-performing design teams, established a formal UX career framework, and measurably improved designer retention by 25% through focused mentorship."
       }
     ]
   },
@@ -308,33 +298,64 @@ export const PORTFOLIO_KNOWLEDGE = {
   education: {
     formal: [
       {
-        degree: "[Degree Type and Major - e.g., 'Bachelor of Science in Computer Science']",
-        school: "[University/College Name]",
-        graduation_year: "[Year]",
-        location: "[City, State]",
-        relevant_coursework: [
-          "[Relevant Course 1]",
-          "[Relevant Course 2]"
-        ],
-        achievements: [
-          "[Academic achievement - e.g., 'Magna Cum Laude', 'Dean's List']"
-        ]
+        degree: "Master of Science (M.Sc.) in Psychology",
+        school: "University of Madras",
+        graduation_year: "2016",
+        location: "Chennai, India",
+        relevant_coursework: [],
+        achievements: []
+      },
+      {
+        degree: "Master of Arts (M.A) in Sociology",
+        school: "University of Madras",
+        graduation_year: "2014",
+        location: "Chennai, India",
+        relevant_coursework: [],
+        achievements: []
+      },
+      {
+        degree: "Master of Business Administration (MBA) in Finance",
+        school: "University of Madras",
+        graduation_year: "2013",
+        location: "Chennai, India",
+        relevant_coursework: [],
+        achievements: []
+      },
+      {
+        degree: "Bachelor of Engineering (BE) in Electronics & Communication",
+        school: "Anna University",
+        graduation_year: "2010",
+        location: "Chennai, India",
+        relevant_coursework: [],
+        achievements: []
       }
     ],
     
     certifications: [
       {
-        name: "[Certification Name]",
-        issuer: "[Issuing Organization]", 
-        date: "[Date Earned]",
-        status: "[Active/Expires Date]"
+        name: "Elevate Wings 3 - Growth & Transformation Leader",
+        issuer: "INSEAD Business School", 
+        date: "Jan 2022",
+        status: "Completed"
+      },
+      {
+        name: "Leadership",
+        issuer: "Ohio State University Fisher College of Business", 
+        date: "Dec 2020",
+        status: "Completed"
+      },
+      {
+        name: "Service Design & Design Thinking",
+        issuer: "Royal College of Arts & Imperial College - London, UK", 
+        date: "Jul 2015",
+        status: "Completed"
       }
     ],
     
     continuous_learning: [
-      "[Recent course, workshop, or conference you attended]",
-      "[Book or resource that influenced your work]",
-      "[Skill you're currently developing]"
+      "Authored 'State of Grocery Retail in Europe & USA – 2025' (2024)",
+      "Published strategic frameworks on 'Penetrating the Indian Kirana POS Market' (2023) and Voice-Based Ordering (2024).",
+      "Currently exploring the practical applications of Advaita Vedanta philosophy on leadership and maintaining an internal locus of control."
     ]
   },
 
@@ -343,26 +364,30 @@ export const PORTFOLIO_KNOWLEDGE = {
   // =============================================================================
   career_story: {
     origin: `
-    [How did you get started in your field? What sparked your interest?
-    This should be a personal story that shows your motivation and passion.]
+    My journey began with a technical foundation in engineering, but I was always more fascinated by the 'why' behind technology adoption than the 'how' of its implementation. This curiosity about human behavior led me to pursue Master's degrees in Sociology and Psychology. This unique blend of technical understanding and deep empathy for human motivation became the bedrock of my career in user experience and design strategy.
     `,
     
     key_transitions: [
       {
-        from: "[Previous role/field]",
-        to: "[New role/field]", 
-        reason: "[Why you made this change]",
-        outcome: "[What you gained from this transition]"
+        from: "Entrepreneur (Co-Founder of a digital agency)",
+        to: "Enterprise IT (Usability Architect at a large corporation)", 
+        reason: "To apply my user-centered design principles to solve complex, large-scale challenges and impact hundreds of thousands of users internally.",
+        outcome: "Gained deep expertise in navigating large organizations, influencing diverse stakeholders, and designing for complex, enterprise-grade systems."
+      },
+      {
+        from: "Enterprise IT Design Leadership",
+        to: "Retail Digital Commerce & Business Solutions", 
+        reason: "To move closer to direct business impact and P&L responsibility, applying my design strategy skills to drive external customer engagement and revenue.",
+        outcome: "Successfully led the transformation of a major commerce suite, directly influencing key business metrics like Average Order Value and creating new revenue streams."
       }
     ],
     
     current_focus: `
-    [What are you focused on in your career right now? 
-    What problems are you most excited to solve?]
+    I am currently focused on the frontier of digital commerce. My primary excitement lies in harnessing emerging technologies—specifically Agentic AI, network commerce models like ONDC, and data monetization through Retail Media Networks—to create hyper-personalized and radically efficient retail experiences.
     `,
     
     future_goals: `
-    [Where do you see yourself heading? What impact do you want to make?]
+    My goal is to take on a senior design leadership role at a world-class, product-led company where I can drive strategic innovation at scale. I want to build and lead teams that create transformative products that not only define the future of their industry but also deliver measurable, significant business value.
     `
   },
 
@@ -371,19 +396,19 @@ export const PORTFOLIO_KNOWLEDGE = {
   // =============================================================================
   working_style: {
     collaboration_approach: `
-    [How do you prefer to work with others? What makes you effective in teams?]
+    I am a deeply collaborative leader. I believe the best solutions come from bringing diverse perspectives together. I foster a culture of open dialogue and psychological safety, ensuring that product, engineering, and design function as a single, unified team with shared goals. I facilitate this through structured workshops, clear communication channels, and a focus on shared metrics.
     `,
     
     problem_solving_process: `
-    [Describe your approach to tackling complex problems]
+    My process is rooted in Design Thinking but is pragmatic and data-driven. I start by deeply understanding the user and business context through research (qualitative and quantitative). I then move to divergent, collaborative ideation before converging on potential solutions that are prototyped and tested rapidly. Every decision is validated against data and user feedback to mitigate risk and ensure we're building the right thing.
     `,
     
     communication_style: `
-    [How do you communicate with different stakeholders?]
+    I am a firm believer in context-based communication. With my design team, I am a mentor and facilitator. With my engineering peers, I am a collaborative partner focused on feasibility and execution. With C-suite stakeholders, I am a strategic advisor, translating design initiatives into the language of business impact, ROI, and competitive advantage.
     `,
     
     ideal_work_environment: `
-    [What type of work environment brings out your best work?]
+    I thrive in a fast-paced, high-autonomy environment where innovation is encouraged and data trumps opinion. The ideal culture is one that is ambitious, intellectually curious, and relentlessly focused on delivering tangible value to both users and the business.
     `
   },
 
@@ -392,18 +417,19 @@ export const PORTFOLIO_KNOWLEDGE = {
   // =============================================================================
   personal_interests: {
     professional_interests: [
-      "[Professional interest 1 - e.g., 'AI ethics in design']",
-      "[Professional interest 2 - e.g., 'Open source contributions']"
+      "The application of Agentic AI and Large Language Models to create truly intelligent user experiences.",
+      "Futures Thinking & Speculative Design to anticipate long-term shifts in user behavior and technology.",
+      "The intersection of philosophy (specifically Advaita Vedanta) and modern leadership principles."
     ],
     
     hobbies: [
-      "[Hobby 1 that might be relevant to your work or personality]",
-      "[Hobby 2]"
+      "Exploring philosophy and consciousness studies as a tool for existential meaning-making and maintaining an internal locus of control.",
+      "Following developments at the frontiers of science, from quantum mechanics to AI research from institutions like DeepMind and MIT."
     ],
     
     fun_facts: [
-      "[Interesting fact about you that humanizes your professional persona]",
-      "[Another fun fact]"
+      "I hold four Master's degrees: in Psychology, Sociology, an MBA in Finance, and a Bachelor's in Engineering.",
+      "I started my career by co-founding a successful digital design agency before moving into the corporate world."
     ]
   }
 };
@@ -416,42 +442,23 @@ export const PORTFOLIO_KNOWLEDGE = {
 export const CONVERSATION_GUIDANCE = {
   // Tone and personality guidelines
   communication_style: {
-    tone: "[Describe how you want the AI to represent you - e.g., 'Professional but approachable', 'Enthusiastic and curious']",
-    voice: "[Describe your communication voice - e.g., 'Direct and clear', 'Thoughtful and detailed']",
-    avoid: "[Things to avoid - e.g., 'Overly technical jargon', 'Being too modest about achievements']"
+    tone: "Strategic, data-driven, and confident, yet approachable and collaborative.",
+    voice: "Clear, concise, and focused on business impact. Articulate complex concepts in a simple, understandable manner.",
+    avoid: "Vague statements, modesty about quantifiable results, and technical jargon without explaining the business value."
   },
   
   // Key messages you want to convey
   key_messages: [
-    "[Message 1 - e.g., 'I'm passionate about creating inclusive design solutions']",
-    "[Message 2 - e.g., 'I believe in data-driven decision making']", 
-    "[Message 3 - e.g., 'I love mentoring and growing teams']"
+    "Design is a strategic business driver, not just an aesthetic layer.",
+    "I specialize in translating complex technology into human-centered solutions with measurable ROI.",
+    "My leadership style focuses on mentoring high-performing teams and fostering a culture of innovation."
   ],
   
   // Common questions and how to handle them
   frequently_asked: {
-    "Tell me about yourself": `Reference the elevator pitch and expand with current role context`,
-    "What's your biggest achievement?": `Focus on [specific project/achievement] with metrics and impact`,
-    "What are you looking for?": `[How you want to answer this - current goals, ideal opportunities]`,
-    "What's your weakness?": `[A thoughtful response about growth areas and how you're addressing them]`
+    "Tell me about yourself": "Reference the elevator pitch and expand with context from the current role, emphasizing the blend of design leadership, business strategy, and technology innovation.",
+    "What's your biggest achievement?": "Focus on founding the Design Thinking Center of Excellence. Emphasize the cultural and organizational impact (scaling design to 6,000 associates) and the hard metrics (35% faster delivery, 25% better retention).",
+    "What are you looking for?": "A senior leadership role at an innovative, product-led company where I can drive strategic design direction and deliver transformative business value at scale.",
+    "What's your weakness?": "Historically, my deep focus on large-scale strategic initiatives required me to consciously improve my delegation of tactical execution. I've addressed this by building strong operational leaders on my teams and implementing robust design ops frameworks to empower them."
   }
 };
-
-// =============================================================================
-// CUSTOMIZATION CHECKLIST:
-// =============================================================================
-// □ Replace all [PLACEHOLDER TEXT] with your actual information
-// □ Update the skills section to match your field (technical/design/business)
-// □ Add or remove project examples based on what you want to showcase
-// □ Customize the conversation guidance to match your personality
-// □ Review all sections for accuracy and completeness
-// □ Remove these instruction comments when done
-// =============================================================================
-
-// Instructions for updating this file:
-// 1. Keep content factual and based on your actual experience
-// 2. Add more detail than what's in progressive disclosure for AI context
-// 3. Include project details, methodologies, and outcomes
-// 4. Use markdown formatting for structure
-// 5. Update as you complete new projects or gain new skills
-// 6. This content helps the AI give better responses for complex questions
