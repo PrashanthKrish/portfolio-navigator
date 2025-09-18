@@ -230,7 +230,12 @@ export const PORTFOLIO_KNOWLEDGE = {
   // =============================================================================
   skills: {
     technical: {
-      programming_languages: [],
+      programming_languages: [] as {
+        name: string;
+        proficiency: string;
+        years_experience: string;
+        context: string;
+      }[],
       
       frameworks_tools: [],
       
@@ -462,3 +467,22 @@ export const CONVERSATION_GUIDANCE = {
     "What's your weakness?": "Historically, my deep focus on large-scale strategic initiatives required me to consciously improve my delegation of tactical execution. I've addressed this by building strong operational leaders on my teams and implementing robust design ops frameworks to empower them."
   }
 };
+
+// =============================================================================
+// CUSTOMIZATION CHECKLIST:
+// =============================================================================
+// □ Replace all [PLACEHOLDER TEXT] with your actual information
+// □ Update the skills section to match your field (technical/design/business)
+// □ Add or remove project examples based on what you want to showcase
+// □ Customize the conversation guidance to match your personality
+// □ Review all sections for accuracy and completeness
+// □ Remove these instruction comments when done
+// =============================================================================
+
+// Instructions for updating this file:
+// 1. Keep content factual and based on your actual experience
+// 2. Add more detail than what's in progressive disclosure for AI context
+// 3. Include project details, methodologies, and outcomes
+// 4. Use markdown formatting for structure
+// 5. Update as you complete new projects or gain new skills
+// 6. This content helps the AI give better responses for complex questions
