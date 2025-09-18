@@ -194,123 +194,6 @@ const ChatInterface = () => {
     setUserInput('');
     setIsLoading(true);
 
-    // Check if user typed "resume" and offer download
-    if (userInputText.toLowerCase().includes('resume')) {
-      const resumeResponse: Message = {
-        type: 'assistant',
-        content: {
-          message: "I'd be happy to share my resume with you! Here's a download link:",
-          resume: true
-        }
-      };
-      setMessages(prev => [...prev, resumeResponse]);
-      setIsLoading(false);
-      return;
-    }
-
-    // Check if user typed "contact" and show contact form
-    if (userInputText.toLowerCase().includes('contact')) {
-      const contactResponse: Message = {
-        type: 'assistant',
-        content: {
-          message: "Here's how you can get in touch with me:",
-          contact: true
-        }
-      };
-      setMessages(prev => [...prev, contactResponse]);
-      setIsLoading(false);
-      return;
-    }
-
-    // Check if user typed "case study" or "case studies" and show portfolio carousel
-    if (userInputText.toLowerCase().includes('case study') || userInputText.toLowerCase().includes('case studies')) {
-      console.log('Case study detected! Input was:', userInputText);
-      const portfolioResponse: Message = {
-        type: 'assistant',
-        content: {
-          message: "Here are my case studies. Click on any thumbnail to explore the full project:",
-          portfolio: true
-        }
-      };
-      console.log('Portfolio response created:', portfolioResponse);
-      setMessages(prev => [...prev, portfolioResponse]);
-      setIsLoading(false);
-      return;
-    }
-
-    // Check if user typed "work" and show work information with portfolio carousel
-    if (userInputText.toLowerCase().includes('work')) {
-      console.log('Work detected! Input was:', userInputText);
-      const workResponse: Message = {
-        type: 'assistant',
-        content: {
-          message: "Here's information about my work experience:",
-          work: true,
-          portfolio: true
-        }
-      };
-      console.log('Work response created:', workResponse);
-      setMessages(prev => [...prev, workResponse]);
-      setIsLoading(false);
-      return;
-    }
-
-    // Check if user typed "skills" and show inline skills list
-    if (userInputText.toLowerCase().includes('skills')) {
-      const skillsResponse: Message = {
-        type: 'assistant',
-        content: {
-          "message": "Here are my core skills and competencies:\n\n**Design Strategy & User Experience:** Vision & Strategy Development, User Research & Analysis, Service Design, AI/ML Integration in UX, Agentic & Conversational AI Strategy, Information Architecture, Interaction Design, Gamification Strategy, and Usability Testing.\n\n**Business & Retail Acumen:** Retail Strategy & Transformation, Digital Commerce (Omnichannel), ONDC Strategy & Implementation, Retail Media Networks (RMN), Market Research & Analysis, and Business Solution Design.\n\n**Leadership & Management:** C-suite Stakeholder Management, Global Design Operations, Team Building & Mentoring, Design Advocacy & Evangelism, Cross-functional Team Leadership, Change Management, and Workshop Facilitation.\n\n**Methodologies & Technical Skills:**\n• **Core Methodologies:** Design Thinking, Agile & Lean UX, Data-Driven Design, User-Centered Design (UCD)\n• **Design & Prototyping:** Figma, Adobe Creative Suite\n• **Project Management:** JIRA, Asana\n• **Emerging Technologies:** AI/ML, Agentic AI, Conversational AI (ChatGPT), ONDC, RMNs"
-        }
-      };
-      setMessages(prev => [...prev, skillsResponse]);
-      setIsLoading(false);
-      return;
-    }
-
-    // Check if user typed "work" and show work overview
-    if (userInputText.toLowerCase().includes('work')) {
-      const workResponse: Message = {
-        type: 'assistant',
-        content: {
-          "message": "I'd be happy to tell you about my work! My experience is centered on large-scale design leadership and business transformation:\n\n• **Current Role:** Strategic Head at TCS, transforming a major digital commerce suite with emerging technologies like AI, ONDC, and RMNs.\n\n• **Key Previous Role:** Founded and led an award-winning Design Thinking Center of Excellence, scaling design culture for 6,000+ associates.\n\n• **Core Expertise:** AI-powered platform design, omnichannel retail strategy, and large-scale enterprise transformation.\n\n• **Leadership & Impact:** Mentoring large design teams (up to 20 designers), improving designer retention by 25%, and driving C-suite adoption of design-led initiatives.\n\nWhat area would be most interesting to dive into?",
-          buttons: [
-            {
-              id: "btn_work",
-              text: "My Work",
-              action: "work",
-              variant: "primary" as const,
-              linkType: "internal" as const
-            },
-            {
-              id: "btn_experience",
-              text: "Experience",
-              action: "experience",
-              variant: "secondary" as const,
-              linkType: "internal" as const
-            },
-            {
-              id: "btn_skills",
-              text: "Skills",
-              action: "skills",
-              variant: "secondary" as const,
-              linkType: "internal" as const
-            },
-            {
-              id: "btn_about",
-              text: "About Me",
-              action: "about",
-              variant: "outline" as const,
-              linkType: "internal" as const
-            }
-          ]
-        }
-      };
-      setMessages(prev => [...prev, workResponse]);
-      setIsLoading(false);
-      return;
-    }
-
     try {
       const response = await fetch('/api/chat', {
         method: 'POST',
@@ -318,7 +201,7 @@ const ChatInterface = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          message: userInput.trim(),
+          message: userInputText,
           messages: [...messages, userMessage],
           instructions: ASSISTANT_INSTRUCTIONS
         }),
