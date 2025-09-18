@@ -260,7 +260,7 @@ const ChatInterface = () => {
       const skillsResponse: Message = {
         type: 'assistant',
         content: {
-          message: "Here are my core skills and competencies:\n\nProduct Design: visual design, AI-driven concepting, technical and tooling audience design, frontend dev & rapid prototyping, UX research, usability testing, information architecture, interaction & responsive design.\n\nDesign Systems: Design tokens, developer collaboration, API design collaboration, design system documentation.\n\nLeadership: React & frontend prototyping, stakeholder communication, design critique facilitation, mentoring & team culture.\n\nTechnical Skills:\n• Design & Prototyping: Figma, Adobe Creative Suite, Lottie, Jitter, Framer, Webflow, Cursor, Claude, V0\n• Frontend Development: React, TypeScript, Storybook, JavaScript, HTML/CSS, Next.js, GitHub, MongoDB, Vercel\n• AI / LLMs: Cursor, Claude, Midjourney, Sora, Suno, ElevenLabs"
+          "message": "Here are my core skills and competencies:\n\n**Design Strategy & User Experience:** Vision & Strategy Development, User Research & Analysis, Service Design, AI/ML Integration in UX, Agentic & Conversational AI Strategy, Information Architecture, Interaction Design, Gamification Strategy, and Usability Testing.\n\n**Business & Retail Acumen:** Retail Strategy & Transformation, Digital Commerce (Omnichannel), ONDC Strategy & Implementation, Retail Media Networks (RMN), Market Research & Analysis, and Business Solution Design.\n\n**Leadership & Management:** C-suite Stakeholder Management, Global Design Operations, Team Building & Mentoring, Design Advocacy & Evangelism, Cross-functional Team Leadership, Change Management, and Workshop Facilitation.\n\n**Methodologies & Technical Skills:**\n• **Core Methodologies:** Design Thinking, Agile & Lean UX, Data-Driven Design, User-Centered Design (UCD)\n• **Design & Prototyping:** Figma, Adobe Creative Suite\n• **Project Management:** JIRA, Asana\n• **Emerging Technologies:** AI/ML, Agentic AI, Conversational AI (ChatGPT), ONDC, RMNs"
         }
       };
       setMessages(prev => [...prev, skillsResponse]);
@@ -273,7 +273,7 @@ const ChatInterface = () => {
       const workResponse: Message = {
         type: 'assistant',
         content: {
-          message: "I'd be happy to tell you about my work! I have experience across several areas:\n\n• Current Role: Senior UX/UI Designer at MoCaFi, a fintech serving underbanked populations\n• Contract Work: Google/Waze, Aptos Labs, design leadership and systems work\n• Previous Experience: Coinbase (100M+ users), independent practice (30+ clients)\n• Technical Skills: React, TypeScript, AI-assisted design workflows\n• Leadership: Mentoring 20+ designers, teaching experience\n\nWhat specific aspect would you like to know more about?",
+          "message": "I'd be happy to tell you about my work! My experience is centered on large-scale design leadership and business transformation:\n\n• **Current Role:** Strategic Head at TCS, transforming a major digital commerce suite with emerging technologies like AI, ONDC, and RMNs.\n\n• **Key Previous Role:** Founded and led an award-winning Design Thinking Center of Excellence, scaling design culture for 6,000+ associates.\n\n• **Core Expertise:** AI-powered platform design, omnichannel retail strategy, and large-scale enterprise transformation.\n\n• **Leadership & Impact:** Mentoring large design teams (up to 20 designers), improving designer retention by 25%, and driving C-suite adoption of design-led initiatives.\n\nWhat area would be most interesting to dive into?",
           buttons: [
             {
               id: "btn_work",
@@ -371,7 +371,7 @@ const ChatInterface = () => {
       console.error('Error:', error);
       const errorMessage: Message = {
         type: 'assistant',
-        content: "I'm sorry, I'm having trouble connecting right now. Please try again in a moment."
+        content: "I'm sorry, I'm having trouble connecting right now. Please try again in a moment. Its usually a firewall issue, especially on corporate networks."
       };
       setMessages(prev => [...prev, errorMessage]);
     } finally {
@@ -541,7 +541,7 @@ const ChatInterface = () => {
       console.error('Error:', error);
       const errorMessage: Message = {
         type: 'assistant',
-        content: "I'm sorry, I'm having trouble connecting right now. Please try again in a moment."
+        content: "I'm sorry, I'm having trouble connecting right now. Please try again in a moment. Its usually a firewall issue, especially on corporate networks."
       };
       setMessages(prev => [...prev, errorMessage]);
     } finally {
@@ -643,20 +643,20 @@ const ChatInterface = () => {
           <div className="work-display mt-6">
             <div className="work-info space-y-4">
               <p className="work-description text-white/70 text-sm leading-relaxed">
-                I'm currently a Senior UX/UI Designer at MoCaFi, a fintech serving underbanked populations. I specialize in design systems, AI integrations, and bridging design-development gaps.
+                My career has been a progression of scaling design's impact across both enterprise and retail domains. Currently, as a Strategic Head at TCS, I'm transforming a major digital commerce suite with AI and ONDC. Previously, I founded and led an award-winning Design Thinking Center of Excellence, served as a Design Director for numerous high-adoption enterprise platforms, and began my journey by co-founding a successful digital agency.
               </p>
               <div className="work-highlights space-y-3">
                 <div className="highlight-item flex items-start gap-2">
-                  <span className="text-white/70 font-medium text-xs">Current Role:</span>
-                  <span className="text-white/70 text-xs">Senior UX/UI Designer at MoCaFi</span>
+                  <span className="text-white/70 font-medium text-xs">Career Progression:</span>
+                  <span className="text-white/70 text-xs">Co-Founder → Usability Architect → Design Director → Head of CoE → Strategic Head</span>
                 </div>
                 <div className="highlight-item flex items-start gap-2">
-                  <span className="text-white/70 font-medium text-xs">Specialization:</span>
-                  <span className="text-white/70 text-xs">Design systems, AI integrations, design-development collaboration</span>
+                  <span className="text-white/70 font-medium text-xs">Core Focus:</span>
+                  <span className="text-white/70 text-xs">Retail Transformation, Enterprise Innovation, AI/ML Integration, Design Leadership</span>
                 </div>
                 <div className="highlight-item flex items-start gap-2">
-                  <span className="text-white/70 font-medium text-xs">Recent Impact:</span>
-                  <span className="text-white/70 text-xs">Reduced design-to-dev handoff time by 50%</span>
+                  <span className="text-white/70 font-medium text-xs">Key Career Metrics:</span>
+                  <span className="text-white/70 text-xs">Increased AOV by ~8%, boosted design efficiency by 60%, reduced project time by ~90%</span>
                 </div>
               </div>
             </div>
@@ -770,7 +770,7 @@ const ChatInterface = () => {
               }}
             />
           </div>
-          <div className="chat-title">Name</div>
+          <div className="chat-title">Prashanth</div>
         </div>
         
         <Link href="#" className="more-about-link" onClick={(e) => {

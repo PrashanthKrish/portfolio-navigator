@@ -247,7 +247,7 @@ export const CONTACT_INFO = {
   linkedin: "https://www.linkedin.com/in/krishprashanth/",
   github: "prashanthkrish",
   portfolio: "https://www.prashanthkrish.com",
-  resume: "/assets/Prashanth_Kothandaraman_Resume.pdf",
+  resume: "/assets/my-resume.pdf",
   website: "https://www.prashanthkrish.com"
 };
 
