@@ -37,37 +37,37 @@ export const PROGRESSIVE_CONTENT = {
   overview: {
     work: {
       title: "My Work & Projects",
-      description: "Featured projects and case studies showcasing design and development skills",
+      description: "Explore case studies in retail transformation and enterprise innovation, focusing on strategic impact and measurable business outcomes.",
       buttonText: "Show me your work",
       nextLevel: "project_categories"
     },
     experience: {
-      title: "[Your Field] Experience",
-      description: "[Brief overview of your experience - e.g., '5+ years in product design with focus on user research and design systems']",
+      title: "Design Leadership Experience",
+      description: "Over 14 years of experience leading global teams, scaling design thinking culture, and driving business transformation for Fortune 500 clients.",
       buttonText: "Tell me about your experience",
       nextLevel: "experience_details"
     },
     projects: {
       title: "Featured Projects",
-      description: "[Brief description of your project portfolio - e.g., 'Mobile apps, web platforms, and design systems for fintech and healthcare']",
+      description: "A portfolio of projects showcasing the integration of AI, ONDC, and RMNs in digital commerce, alongside large-scale enterprise platform transformations.",
       buttonText: "Show me your projects",
       nextLevel: "project_categories"
     },
     skills: {
       title: "Skills & Expertise",
-      description: "[Your core competencies - e.g., 'User research, prototyping, React development, and team leadership']",
+      description: "Core competencies include Design Leadership, Retail Strategy, AI/ML Integration in UX, and C-suite Stakeholder Management.",
       buttonText: "What are your skills?",
       nextLevel: "skills_breakdown"
     },
     background: {
       title: "Background & Education",
-      description: "[Your educational and career background - e.g., 'Computer Science degree, transitioned from engineering to design']",
+      description: "A unique academic foundation with Master's degrees in Psychology, Sociology, and an MBA, plus executive education from INSEAD.",
       buttonText: "Tell me your background",
       nextLevel: "background_details"
     },
     about: {
       title: "About Me",
-      description: "Learn about my background, interests, and what drives my work in design and development",
+      description: "Learn about my leadership philosophy, my data-driven approach to design, and how my background in psychology informs my work.",
       buttonText: "Tell me about yourself",
       nextLevel: "about_details"
     }
@@ -76,20 +76,20 @@ export const PROGRESSIVE_CONTENT = {
   // Level 2: More detailed categories
   experience_details: {
     current_role: {
-      title: "[Current Job Title] at [Company]",
-      description: "[What you do in your current role - responsibilities, team size, key achievements]",
+      title: "Strategic Head @ TCS",
+      description: "Leading experience transformation for a major digital commerce suite, driving an ~8% AOV increase by integrating AI, ONDC, and creating new RMN revenue streams.",
       buttonText: "Current role details",
       nextLevel: "current_role_deep"
     },
     previous_roles: {
       title: "Previous Experience",
-      description: "[Brief overview of past positions and how they led to current role]",
+      description: "Founded and scaled a Design Thinking CoE, mentored large UX teams, and led the redesign of 25+ enterprise products, consistently achieving 90-100% adoption rates.",
       buttonText: "Previous experience",
       nextLevel: "career_progression"
     },
     achievements: {
       title: "Key Achievements",
-      description: "[Your most significant professional accomplishments]",
+      description: "Key metrics include a 60% boost in design efficiency, a 35% increase in project delivery speed, and a 90% reduction in project initiation time from months to days.",
       buttonText: "Major achievements",
       nextLevel: "achievement_details"
     }
@@ -98,19 +98,19 @@ export const PROGRESSIVE_CONTENT = {
   about_details: {
     personal: {
       title: "Personal Background",
-      description: "My journey into design and technology, what motivates me, and my approach to problem-solving",
+      description: "My journey began in engineering, but my fascination with human behavior led me to pursue advanced degrees in Psychology and Sociology, shaping my human-centered approach to solving complex business problems.",
       buttonText: "Personal story",
       nextLevel: "personal_deep"
     },
     values: {
       title: "Values & Philosophy",
-      description: "The principles that guide my work and how I approach design challenges",
+      description: "I believe great design is a strategic multiplier. It must be rooted in deep user empathy, aligned with business objectives, and validated by measurable data. My goal is always to connect design directly to ROI.",
       buttonText: "My values",
       nextLevel: "values_deep"
     },
     interests: {
       title: "Interests & Hobbies",
-      description: "What I enjoy outside of work and how it influences my creative process",
+      description: "Outside of work, I focus on continuous learning, particularly at the intersection of behavioral science and emerging technology. This curiosity fuels my approach to innovation and future-proofing user experiences.",
       buttonText: "Personal interests",
       nextLevel: "interests_deep"
     }
@@ -118,47 +118,47 @@ export const PROGRESSIVE_CONTENT = {
 
   project_categories: {
     featured_project_1: {
-      title: "[Project Name 1]",
-      description: "[Brief project description - what it does, your role, impact]",
-      buttonText: "Learn about [Project 1]",
+      title: "Next-Gen Retail: AI-Powered Commerce",
+      description: "Led the strategic integration of Agentic AI, ONDC, and RMNs into a commerce suite, boosting AOV by ~8% and opening new markets.",
+      buttonText: "Learn about AI in Commerce",
       nextLevel: "project_1_details"
     },
     featured_project_2: {
-      title: "[Project Name 2]", 
-      description: "[Brief project description - what it does, your role, impact]",
-      buttonText: "Learn about [Project 2]",
+      title: "CoE: Driving Design Transformation",
+      description: "Founded a Design Thinking Center of Excellence, scaling UX as a core competency for 6,000 associates and winning a Golden Stevie Award.",
+      buttonText: "Learn about the Design CoE",
       nextLevel: "project_2_details"
     },
     featured_project_3: {
-      title: "[Project Name 3]",
-      description: "[Brief project description - what it does, your role, impact]", 
-      buttonText: "Learn about [Project 3]",
+      title: "Enterprise Digital Transformation",
+      description: "Directed a portfolio of enterprise platforms that reduced project planning from months to days and increased employee engagement by 40%.",
+      buttonText: "Learn about Enterprise UX",
       nextLevel: "project_3_details"
     },
     side_projects: {
-      title: "Side Projects & Experiments",
-      description: "[Personal projects, open source contributions, or experimental work]",
-      buttonText: "Side projects",
+      title: "Co-Founder @ UMM Digital",
+      description: "Co-founded and led a digital agency, delivering solutions for diverse clients including Fortune 500 companies in entertainment, banking, and healthcare.",
+      buttonText: "My entrepreneurial venture",
       nextLevel: "side_project_details"
     }
   },
 
   skills_breakdown: {
     technical_skills: {
-      title: "Technical Skills",
-      description: "[Programming languages, tools, frameworks, etc.]",
+      title: "Methodologies & Tools",
+      description: "Expert in Design Thinking, Agile & Lean UX, and Design Systems Management. Proficient with Figma, Adobe Creative Suite, and project management tools like JIRA & Asana.",
       buttonText: "Technical expertise",
       nextLevel: "tech_stack_details"
     },
     design_skills: {
-      title: "[Your Domain] Skills", // e.g., "Design Skills", "Leadership Skills"
-      description: "[Domain-specific skills relevant to your field]",
-      buttonText: "[Domain] expertise",
+      title: "Leadership & Strategic Skills",
+      description: "Vision & Strategy Development, Global Design Operations, Data-Driven Design Leadership, C-suite Stakeholder Management, and Retail Transformation Strategy.",
+      buttonText: "Strategic expertise",
       nextLevel: "domain_skills_details"
     },
     soft_skills: {
-      title: "Leadership & Collaboration",
-      description: "[Communication, teamwork, mentoring, project management skills]",
+      title: "Collaboration & Mentoring",
+      description: "Expert in cross-functional team leadership, executive presentations, workshop facilitation, and building/mentoring high-performing UX teams.",
       buttonText: "Soft skills",
       nextLevel: "soft_skills_details"
     }
@@ -167,20 +167,20 @@ export const PROGRESSIVE_CONTENT = {
   // Level 3: Deep dives into specific areas
   current_role_deep: {
     responsibilities: {
-      title: "Day-to-Day Responsibilities",
-      description: "[Detailed breakdown of what you do daily/weekly]",
+      title: "Strategic Responsibilities",
+      description: "My core responsibilities include spearheading experience transformation, leading business solutions for emerging tech (AI, ONDC, RMNs), and directing market/user research to drive data-driven innovation.",
       buttonText: "What do you do day-to-day?",
       nextLevel: "responsibility_examples"
     },
     team_impact: {
       title: "Team & Company Impact",
-      description: "[How your work affects the team, product, and company goals]",
+      description: "My work directly impacts revenue by increasing AOV and creating new RMN streams. I also mentor design teams and ensure cross-functional alignment with product, engineering, and data science.",
       buttonText: "Your impact",
       nextLevel: "impact_metrics"
     },
     learning_growth: {
       title: "Learning & Growth",
-      description: "[What you're currently learning, how you're developing professionally]",
+      description: "I actively research and publish thought leadership on topics like the 'State of Grocery Retail in 2025', 'Penetrating the Indian Kirana POS Market', and the 'Future of Work'.",
       buttonText: "Current learning",
       nextLevel: "growth_examples"
     }
@@ -188,21 +188,21 @@ export const PROGRESSIVE_CONTENT = {
 
   project_1_details: {
     challenge: {
-      title: "[Project 1] - The Challenge",
-      description: "[What problem this project solved, why it was important]",
+      title: "AI Commerce - The Challenge",
+      description: "To modernize an architecturally robust but experientially lagging digital commerce suite to capitalize on emerging technologies like AI, ONDC, and RMNs.",
       buttonText: "The problem",
       nextLevel: "project_1_solution"
     },
     solution: {
-      title: "[Project 1] - The Solution", 
-      description: "[Your approach, methodology, key decisions]",
+      title: "AI Commerce - The Solution",
+      description: "I led the strategic integration, developed the ONDC and RMN strategies, oversaw Agentic AI implementation, and translated complex technical capabilities into actionable design strategies.",
       buttonText: "How you solved it",
       nextLevel: "project_1_results"
     },
     results: {
-      title: "[Project 1] - Results & Impact",
-      description: "[Outcomes, metrics, user feedback, business impact]",
-      buttonText: "Results achieved", 
+      title: "AI Commerce - Results & Impact",
+      description: "Achieved an ~8% increase in AOV, enabled penetration into new geographies, and positioned the suite as a leader in leveraging AI and network commerce.",
+      buttonText: "Results achieved",
       nextLevel: "project_1_learnings"
     }
   },
@@ -210,14 +210,14 @@ export const PROGRESSIVE_CONTENT = {
   // Level 4: Granular details and specifics
   responsibility_examples: {
     example_1: {
-      title: "[Specific Responsibility Example 1]",
-      description: "[Detailed example of a responsibility with context and outcomes]",
+      title: "Reduced Onboarding Time by 40%",
+      description: "Redesigned the global employee onboarding experience for 50,000 annual new hires, which also improved new hire satisfaction by 50%.",
       buttonText: "Example details",
       nextLevel: null
     },
     example_2: {
-      title: "[Specific Responsibility Example 2]",
-      description: "[Another detailed example with metrics or results]",
+      title: "Improved C-Suite Decision Speed by 75%",
+      description: "Architected interactive, near real-time decision-support dashboards for executives, which achieved 100% adoption.",
       buttonText: "Another example",
       nextLevel: null
     }
@@ -226,13 +226,13 @@ export const PROGRESSIVE_CONTENT = {
   project_1_solution: {
     approach: {
       title: "Technical/Design Approach",
-      description: "[Specific methodologies, tools, frameworks used and why]",
+      description: "My approach involved directing in-depth market and user research across diverse retail verticals to identify unmet needs and ensure cross-functional alignment with product, engineering, and data science.",
       buttonText: "Approach details",
       nextLevel: null
     },
     challenges_overcome: {
       title: "Challenges Overcome",
-      description: "[Specific obstacles faced and how you overcame them]",
+      description: "A key challenge was to shift the organizational mindset from focusing on architectural robustness to prioritizing a modern, AI-driven user experience, which required significant C-suite influence and data-backed proposals.",
       buttonText: "How you overcame challenges",
       nextLevel: null
     }
@@ -241,29 +241,14 @@ export const PROGRESSIVE_CONTENT = {
 
 // Contact and action buttons
 export const CONTACT_INFO = {
-  email: "hello@yourname.com",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
-  linkedin: "your-linkedin-username", 
-  github: "your-github-username", // if applicable
-  portfolio: "https://yourportfolio.com", // if you have a separate portfolio site
-  resume: "/assets/my-resume.pdf", // Path to your resume file
-  website: "https://yourwebsite.com"
-};
-
-export const ACTION_BUTTONS = {
-  resume: {
-    text: "Download Resume",
-    action: "download_resume"
-  },
-  contact: {
-    text: "Get in Touch", 
-    action: "show_contact"
-  },
-  portfolio: {
-    text: "View Full Portfolio",
-    action: "external_portfolio" // if you have a separate portfolio site
-  }
+  email: "prashanthk@live.com",
+  phone: "+91 99621 95294",
+  location: "Chennai, Tamil Nadu, India",
+  linkedin: "https://www.linkedin.com/in/krishprashanth/",
+  github: "prashanthkrish",
+  portfolio: "https://www.prashanthkrish.com",
+  resume: "/assets/Prashanth_Kothandaraman_Resume.pdf",
+  website: "https://www.prashanthkrish.com"
 };
 
 // =============================================================================
